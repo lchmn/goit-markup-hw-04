@@ -16,8 +16,6 @@
 body {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     background-color: var(--color-white);
     color: var(--color-slate);
 }
@@ -47,19 +45,20 @@ body {
 /* Navigation */
 
 .list {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     list-style: none;
 }
 
 .nav-item {
-    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--color-navy-blue);
 }
-
-.nav-item:hover, .nav-item:focus {
+.link{
+    text-decoration: none;    
+}    
+.link:hover, .link:focus {
     color: var(--color-ocean);
 }
 
@@ -69,17 +68,11 @@ body {
     font-style: normal;
 }
 
-.list-contacts {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-slate);
-    list-style: none;
-}
-
 .contact {
     font-weight: 400;
     text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--color-slate);
 }
 
@@ -222,11 +215,6 @@ body {
 /* Portfolio */
 
 /* Buttons */
-
-.list-filter {
-    list-style: none;
-}
-
 .filter-button {
     font-family: "Roboto", sans-serif;
     background-color: var(--color-cloud);
@@ -246,9 +234,6 @@ body {
 
 /* Examples portfolio */
 
-.list-ex-port {
-    list-style: none;
-}
 
 .serv-ex-title {
     font-weight: 500;
