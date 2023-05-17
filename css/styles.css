@@ -12,7 +12,7 @@
     --color-white: #ffffff;
     --color-dairy: #fcfcfc;
 }
-img{
+img {
     display: block;
 }
 body {
@@ -180,7 +180,9 @@ body {
     display: flex;
     gap: 24px;
 }
-
+.list-service-item{
+    flex-basis: calc(((100% - 3 * 24px) / 4));
+}
 .serv-desc {
     font-weight: 400;
     font-size: 16px;
@@ -195,6 +197,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
+    margin-bottom: 8px;
 }
 
 /* Services example */
@@ -215,6 +218,7 @@ body {
     text-transform: capitalize;
     color: var(--color-navy-blue);
     text-align: center;
+    margin-bottom: 72px;
 }
 .examples-section{
     padding-bottom: 120px;
