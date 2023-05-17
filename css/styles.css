@@ -28,6 +28,7 @@ body {
 
 .header {
     background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-cornflower);
 }
 .header-container{
     display: flex;
@@ -285,6 +286,13 @@ body {
 }
 /* Portfolio */
 
+.list-filter{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
 /* Buttons */
 .filter-button {
     font-family: "Roboto", sans-serif;
@@ -294,7 +302,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-iris);
-    cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid var(--color-cornflower);
+    border-radius: 4px;
 }
 
 .filter-button:hover, .filter-button:focus {
@@ -304,7 +314,12 @@ body {
 }
 
 /* Examples portfolio */
-
+.list-examples-d{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
 
 .serv-ex-title {
     font-weight: 500;
