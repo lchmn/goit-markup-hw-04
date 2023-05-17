@@ -47,6 +47,11 @@ body {
     display: flex;
     padding: 24px 0;
 }
+.nav-list{
+    gap: 40px;
+    display: flex;
+    padding: 24px 0;
+}
 .contact-container{
     gap: 40px;
     display: flex;
@@ -318,6 +323,7 @@ body {
     background: var(--color-ocean);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: var(--color-white);
+    border: 1px solid transparent;
 }
 
 /* Examples portfolio */
