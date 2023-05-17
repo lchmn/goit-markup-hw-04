@@ -25,7 +25,25 @@ body {
 .header {
     background-color: var(--color-white);
 }
-
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+.nav-container .list{
+    gap: 40px px;
+    display: flex;
+    padding: 24px 0;
+}
+.contact-container{
+    gap: 40px;
+    display: flex;
+}
 /* Logo */
 .link-logo {
     font-family: "Raleway", sans-serif;
@@ -47,7 +65,6 @@ body {
 .list {
     list-style: none;
 }
-
 .nav-item {
     font-weight: 500;
     font-size: 16px;
