@@ -340,6 +340,7 @@ flex-basis: calc(((100% - 3 * 24px) / 4));
     letter-spacing: 0.02em;
     color: var(--color-white);
     margin-bottom: 16px;
+    margin-bottom:16px;
 }
 .footer-soc-list {
     display: flex;
@@ -358,6 +359,9 @@ flex-basis: calc(((100% - 3 * 24px) / 4));
     align-items: center;
     border-radius: 50%;
 }
+.footer-soc-link:hover, .footer-soc-link:focus {
+    background-color: var(--color-green);
+}
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
@@ -369,6 +373,9 @@ flex-basis: calc(((100% - 3 * 24px) / 4));
     display: inline-block;
     margin-bottom: 16px;
     margin-right: 0;
+}
+.footer-icon {
+    fill: var(--color-cloud);
 }
 /* Portfolio */
 
