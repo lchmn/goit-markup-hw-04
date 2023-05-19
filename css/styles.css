@@ -465,7 +465,6 @@ flex-basis: calc(((100% - 3 * 24px) / 4));
     text-transform: capitalize;
     color: var(--color-navy-blue);
     margin-bottom: 72px;
-    margin-top: 0;
 }
 .cust-list {
     display: flex;
