@@ -337,10 +337,8 @@ flex-basis: calc(((100% - 3 * 24px) / 4));
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em;margin-bottom: 16px;
     color: var(--color-white);
-    margin-bottom: 16px;
-    margin-bottom:16px;
 }
 .footer-soc-list {
     display: flex;
