@@ -340,6 +340,7 @@ border-color: var(--color-ocean);
     line-height: 1.5;
     letter-spacing: 0.02em;margin-bottom: 16px;
     color: var(--color-white);
+    margin-bottom: 16px;
 }
 .footer-soc-list {
     display: flex;
