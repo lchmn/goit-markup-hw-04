@@ -181,7 +181,7 @@ body {
     gap: 24px;
 }
 .list-service-item{
-    flex-basis: calc(((100% - 3 * 24px) / 4));
+    width: calc((100% - 72px) / 4);
 }
 .serv-desc {
     font-weight: 400;
