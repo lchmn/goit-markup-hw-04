@@ -299,7 +299,7 @@ flex-basis: calc(((100% - 3 * 24px) / 4));
 }
 .socials-link:hover,
 .socials-link:focus {
-    background-color: var(--color-ocean);
+border-color: var(--color-ocean);
 }
 .socials-icon{
     fill: var(--color-cloud);
