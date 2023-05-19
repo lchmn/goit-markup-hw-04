@@ -31,6 +31,9 @@ body {
 .header {
     background-color: var(--color-white);
     border-bottom: 1px solid var(--color-cornflower);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container{
     display: flex;
@@ -259,7 +262,7 @@ flex-basis: calc(((100% - 3 * 24px) / 4));
     margin-bottom: 72px;
 }
 .emp-desc {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 .employee-name {
     font-weight: 500;
@@ -294,6 +297,12 @@ flex-basis: calc(((100% - 3 * 24px) / 4));
     align-items: center;
     border-radius: 50%;
 }
+.socials-link:hover, .socials-link:focus {
+    background-color: var(--color-ocean);
+}
+.socials-icon{
+    fill: var(--color-cloud);
+}
 .list-team {
     list-style: none;
     display: flex;
@@ -304,6 +313,7 @@ flex-basis: calc(((100% - 3 * 24px) / 4));
     background-color: var(--color-white);
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0 0 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* Footer */
